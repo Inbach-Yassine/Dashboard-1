@@ -17,8 +17,10 @@ body {
   font-family: "Poppins", sans-serif;
   list-style: none;
 }
+.position{
+  display: flex;
+}
 .container {
-  max-width: 250px;
   font-weight: 600;
 }
 .container .profile {
@@ -42,7 +44,7 @@ body {
   background: #193bd1;
 }
 .container .nav-bar ul {
-  padding: 15px 0 15px 20px;
+  padding: 15px 50px 15px 20px;
 }
 .container .nav-bar li a img {
   width: 15px;
@@ -70,4 +72,29 @@ body {
 }
 .container .nav-bar .thirth-list {
   padding-bottom: 3.7rem;
+}
+.parent{
+  width: 81.8%;
+}
+.parent .card{
+  background: #F8F8F8;
+  border: 1px solid rgba(0, 0, 0, 0.27);
+  box-shadow: 17px 8px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  
+}
+.parent .account-details{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  padding: 0 25px;
+}
+.parent .account-details h2{
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--black);
+}
+.parent .account-details img{
+  width: 15px;
+  height: 15px;
 }
